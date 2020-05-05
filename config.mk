@@ -1,6 +1,6 @@
 # Fonts
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/etc,$(TARGET_COPY_OUT_SYSTEM)/etc)
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/fonts/etc,$(TARGET_COPY_OUT_SYSTEM)/etc)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/fonts/fonts,$(TARGET_COPY_OUT_SYSTEM)/fonts)
 
 PRODUCT_COPY_FILES += \
     vendor/fonts/fonts/Anaheim-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Anaheim-Regular.ttf \
